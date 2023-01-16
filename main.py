@@ -1,7 +1,7 @@
 import requests
 import json
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-updater = Updater(token='5952449305:AAHh289ELMP7WFFKdempFHtKLzdik5QAkQs', use_context=True) #Replace TOKEN with your token string
+updater = Updater(token', use_context=True) #Replace TOKEN with your token string
 dispatcher = updater.dispatcher
 
 def hello(update, context):
